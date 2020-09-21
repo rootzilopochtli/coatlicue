@@ -9,13 +9,29 @@ The proposed architecture for the web platform is described in the following dia
 
 <img src="https://github.com/rootzilopochtli/coatlicue/blob/master/images/coatlicue.v2.0.png" alt="coalicue v2.0">
 
+This architecture is based on an idea originally presented in this [gist](https://gist.github.com/darkaxl/9415b1a9cf24f9bdb3594d956e49af7f).
+
 ### Setting up
 
-- CentOS
+- [CentOS](https://github.com/rootzilopochtli/coatlicue/blob/master/centos.md)
 - Cockpit
 - MariaDB
 - Wordpress
 - Nginx
+
+## References
+
+- [Managing containerized system services with Podman](https://developers.redhat.com/blog/2018/11/29/managing-containerized-system-services-with-podman/)
+
+- [Setting up reverse proxies with NGINX](https://www.redhat.com/sysadmin/setting-reverse-proxies-nginx)
+
+- [Cómo instalar un firewall con firewalld en CentOS 8](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-firewalld-on-centos-8-es)
+
+- [How To Secure Apache with Let's Encrypt on CentOS 8](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-centos-8)
+
+- [Cómo configurar Nginx como servidor web y proxy inverso para Apache en un servidor Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/como-configurar-nginx-como-servidor-web-y-proxy-inverso-para-apache-en-un-servidor-ubuntu-18-04-es)
+
+- [Proxying Cockpit over nginx](https://github.com/cockpit-project/cockpit/wiki/Proxying-Cockpit-over-nginx)
 
 ## Author Information
 
