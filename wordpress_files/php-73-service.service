@@ -1,0 +1,19 @@
+[Unit]
+Description=Custom httpd + php Podman Container
+After=mariadb-service.service
+
+[Service]
+Type=simple
+TimeoutStartSec=30s
+ExecStartPre=-/usr/bin/podman rm "php-73-service"
+
+ExecStart=/usr/bin/podman run --name php-73-service -p 8080:8080 -v /opt/app-root/src:/opt/app-root/src:Z  --net host docker.io/centos/php-73-centos7 /bin/sh -c /usr/libexec/s2i/run
+
+ExecReload=-/usr/bin/podman stop "php-73-service"
+ExecReload=-/usr/bin/podman rm "php-73-service"
+ExecStop=-/usr/bin/podman stop "php-73-service"
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

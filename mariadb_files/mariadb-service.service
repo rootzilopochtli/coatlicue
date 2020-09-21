@@ -1,0 +1,19 @@
+[Unit]
+Description=Custom MariaDB Podman Container
+After=network.target
+
+[Service]
+Type=simple
+TimeoutStartSec=5m
+ExecStartPre=-/usr/bin/podman rm "mariadb-service"
+
+ExecStart=/usr/bin/podman run --name mariadb-service -v /opt/var/lib/mysql/data:/var/lib/mysql/data:Z -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=secret -e MYSQL_DATABASE=wordpress --net host registry.fedoraproject.org/f31/mariadb
+
+ExecReload=-/usr/bin/podman stop "mariadb-service"
+ExecReload=-/usr/bin/podman rm "mariadb-service"
+ExecStop=-/usr/bin/podman stop "mariadb-service"
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
