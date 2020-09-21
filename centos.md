@@ -15,7 +15,7 @@ dnf install podman buildah skopeo net-tools sos mlocate ps_mem
 A utility to accurately report the core memory usage for a program:
 
 <pre>
-# ps&lowbar;mem
+&num; <b>ps&lowbar;mem</b>
  Private  +   Shared  =  RAM used	Program
 
 272.0 KiB + 123.0 KiB = 395.0 KiB	agetty (2)
