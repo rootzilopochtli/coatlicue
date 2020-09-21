@@ -14,10 +14,10 @@ This architecture is based on an idea originally presented in this [gist](https:
 ### Setting up
 
 - [CentOS](https://github.com/rootzilopochtli/coatlicue/blob/master/centos.md)
-- Cockpit
-- MariaDB
-- Wordpress
-- Nginx
+- [Cockpit](https://github.com/rootzilopochtli/coatlicue/blob/master/cockpit.md)
+- [MariaDB](https://github.com/rootzilopochtli/coatlicue/blob/master/mariadb.md)
+- [Nginx](https://github.com/rootzilopochtli/coatlicue/blob/master/nginx.md)
+- [Wordpress](https://github.com/rootzilopochtli/coatlicue/blob/master/wordpress.md)
 
 ## References
 
