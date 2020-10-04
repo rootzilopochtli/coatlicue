@@ -17,7 +17,8 @@ podman pull registry.fedoraproject.org/f31/mariadb
 # podman inspect registry.fedoraproject.org/f31/mariadb | egrep -wi "User|home"
             "User": "<b>27</b>",
                 "HOME=<b>/var/lib/mysql</b>",
-                "usage": "<i>docker run -d -e MYSQL_USER=user -e MYSQL_PASSWORD=pass -e MYSQL_DATABASE=db -p 3306:3306 f31/mariadb</i>",
+                "usage": "<i>docker run -d -e MYSQL_USER=user -e MYSQL_PASSWORD=pass \
+                -e MYSQL_DATABASE=db -p 3306:3306 f31/mariadb</i>",
 #
 </pre>
 
