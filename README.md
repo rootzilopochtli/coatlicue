@@ -23,7 +23,11 @@ This architecture is based on an idea originally presented in this [gist](https:
 
 - [Managing containerized system services with Podman](https://developers.redhat.com/blog/2018/11/29/managing-containerized-system-services-with-podman/)
 
+- [Running containers with Podman and shareable systemd services](https://www.redhat.com/sysadmin/podman-shareable-systemd-services)
+
 - [Setting up reverse proxies with NGINX](https://www.redhat.com/sysadmin/setting-reverse-proxies-nginx)
+
+- [Using Docker to Set up Nginx Reverse Proxy With Auto SSL Generation](https://linuxhandbook.com/nginx-reverse-proxy-docker/)
 
 - [Cómo instalar un firewall con firewalld en CentOS 8](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-firewalld-on-centos-8-es)
 
