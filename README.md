@@ -37,6 +37,8 @@ This architecture is based on an idea originally presented in this [gist](https:
 
 - [Proxying Cockpit over nginx](https://github.com/cockpit-project/cockpit/wiki/Proxying-Cockpit-over-nginx)
 
+- [How to set up tlog on Linux hosts for terminal logging](https://www.redhat.com/sysadmin/terminal-logging)
+
 ## Author Information
 
 This notes was updated in 2020 by [Alex Callejas](https://www.twitter.com/dark_axl), blog [rootzilopochtli.com](https://www.rootzilopochtli.com/).
