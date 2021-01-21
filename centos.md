@@ -10,6 +10,31 @@ And install the necessary packages and tools:
 dnf install podman buildah skopeo net-tools sos mlocate ps_mem
 ```
 
+### Registering the System
+
+Use `subscription-manager` command to register the system with the [Red Hat Developer Subscription](https://developers.redhat.com/articles/faqs-no-cost-red-hat-enterprise-linux):
+```
+subscription-manager register --insecure
+```
+
+Attach the subscription number, search the pool by listing the available subscriptions:
+```
+subscription-manager list --available
+```
+```
+subscription-manager attach --pool=8a85...
+```
+
+Set the service level:
+```
+subscription-manager service-level --set=Self-Support
+```
+
+Check the subscription status:
+```
+subscription-manager status
+```
+
 ## ps&lowbar;mem
 
 A utility to accurately report the core memory usage for a program:
