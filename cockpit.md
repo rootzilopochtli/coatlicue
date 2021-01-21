@@ -2,7 +2,7 @@
 
 Using [cockpit](https://cockpit-project.org/) for monitoring performance and management via web-based interface.
 
-## Instalation
+## Installation
 
 - Install cockpit and the modules for the registration of the sessions through [tlog](https://github.com/Scribery/tlog) and [sssd](https://sssd.io/), dashboard and container management:
 
