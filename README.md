@@ -35,9 +35,11 @@ This architecture is based on an idea originally presented in this [gist](https:
 
 - [Cómo configurar Nginx como servidor web y proxy inverso para Apache en un servidor Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/como-configurar-nginx-como-servidor-web-y-proxy-inverso-para-apache-en-un-servidor-ubuntu-18-04-es)
 
-- [Proxying Cockpit over nginx](https://github.com/cockpit-project/cockpit/wiki/Proxying-Cockpit-over-nginx)
+- [Linux system administration via the management console: Cockpit](https://www.redhat.com/en/blog/linux-system-administration-management-console-cockpit)
 
 - [How to set up tlog on Linux hosts for terminal logging](https://www.redhat.com/sysadmin/terminal-logging)
+
+- [Proxying Cockpit over nginx](https://github.com/cockpit-project/cockpit/wiki/Proxying-Cockpit-over-nginx)
 
 ## Author Information
 
