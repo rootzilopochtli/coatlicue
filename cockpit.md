@@ -50,4 +50,34 @@ Use the Cockpit session-login panel to get the logged data back out.
 
 ### Proxying cockpit over nginx
 
-WIP
+- Create a `/etc/cockpit/cockpit.conf` config file:
+
+```
+[WebService]
+AllowUnencrypted=true
+```
+
+- Adding settings for http request forwarding on /etc/nginx/nginx.conf ([Example File](https://github.com/rootzilopochtli/coatlicue/blob/master/nginx_files/nginx.conf))
+
+```
+    server {
+        listen       80;
+        server_name  monitor.rootzilopochtli.com;
+
+        location / {
+	    proxy_pass http://test.rootzilopochtli.com:9090/;
+            proxy_set_header Host $host;
+            proxy_set_header X-Forwarded-Proto $scheme;
+
+            # Required for web sockets to function
+            proxy_http_version 1.1;
+            proxy_buffering off;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection "upgrade";
+
+            # Pass ETag header from Cockpit to clients.
+            # See: https://github.com/cockpit-project/cockpit/issues/5239
+            gzip off;
+            } # end location
+        } # end server
+```
