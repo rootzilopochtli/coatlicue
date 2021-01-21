@@ -50,14 +50,14 @@ Use the Cockpit session-login panel to get the logged data back out.
 
 ### Proxying cockpit over nginx
 
-- Create a `/etc/cockpit/cockpit.conf` config file:
+- Create a `/etc/cockpit/cockpit.conf` config file ([Example File](https://github.com/rootzilopochtli/coatlicue/blob/master/cockpit_files/cockpit.conf)):
 
 ```
 [WebService]
 AllowUnencrypted=true
 ```
 
-- Adding settings for http request forwarding on /etc/nginx/nginx.conf ([Example File](https://github.com/rootzilopochtli/coatlicue/blob/master/nginx_files/nginx.conf))
+- Adding settings for http request forwarding on /etc/nginx/nginx.conf ([Example File](https://github.com/rootzilopochtli/coatlicue/blob/master/nginx_files/nginx.conf)):
 
 ```
     server {
