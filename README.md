@@ -31,7 +31,7 @@ This architecture is based on an idea originally presented in this [gist](https:
 
 - [Cómo instalar un firewall con firewalld en CentOS 8](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-firewalld-on-centos-8-es)
 
-- [How To Secure Apache with Let's Encrypt on CentOS 8](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-centos-8)
+- [How To Secure Nginx with Let's Encrypt on CentOS 8](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-centos-8)
 
 - [Cómo configurar Nginx como servidor web y proxy inverso para Apache en un servidor Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/como-configurar-nginx-como-servidor-web-y-proxy-inverso-para-apache-en-un-servidor-ubuntu-18-04-es)
 
