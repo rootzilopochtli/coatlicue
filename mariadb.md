@@ -37,7 +37,13 @@ podman run -d --name mariadb-service2 -p 3306:3306 \
 -e MYSQL_DATABASE=wordpress --net host registry.fedoraproject.org/f31/mariadb
 ```
 
-- [Install MariaDB client](https://mariadb.com/kb/en/yum/) and test access
+- [Install MariaDB client](https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/) and test access
+
+```
+dnf module list mariadb
+dnf module enable mariadb:10.3
+dnf module install mariadb:10.3/client
+```
 
 ```
 # mysql -u wordpress -p -h ::1 
