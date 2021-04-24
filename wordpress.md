@@ -27,7 +27,7 @@ podman pull docker.io/centos/php-73-centos7
 - Create directory and grant permissions to user
 
 ```
-mkdir -p /opt/app-root/src/ & chown 1001 -R /opt/app-root/src
+mkdir -p /opt/app-root/src/ && chown 1001 -R /opt/app-root/src
 ```
 
 - Download the latest package for wordpress service
