@@ -17,6 +17,7 @@ This architecture is based on an idea originally presented in this [gist](https:
 - [Cockpit](https://github.com/rootzilopochtli/coatlicue/blob/master/cockpit.md)
 - [MariaDB](https://github.com/rootzilopochtli/coatlicue/blob/master/mariadb.md)
 - [Nginx](https://github.com/rootzilopochtli/coatlicue/blob/master/nginx.md)
+- Polr
 - [Wordpress](https://github.com/rootzilopochtli/coatlicue/blob/master/wordpress.md)
 
 ## References
@@ -40,6 +41,10 @@ This architecture is based on an idea originally presented in this [gist](https:
 - [How to set up tlog on Linux hosts for terminal logging](https://www.redhat.com/sysadmin/terminal-logging)
 
 - [Proxying Cockpit over nginx](https://github.com/cockpit-project/cockpit/wiki/Proxying-Cockpit-over-nginx)
+
+- [Polr Project](https://polrproject.org/)
+
+- [Polr on Alpine Linux with Docker](https://hub.docker.com/r/ajanvier/polr)
 
 ## Author Information
 
