@@ -25,13 +25,13 @@ podman pull registry.fedoraproject.org/f31/mariadb
 - Create directory and grant permissions to user
 
 ```
-mkdir -p /opt/var/lib/mysql/data & chown 27:27 /opt/var/lib/mysql/data
+mkdir -p /opt/var/lib/mysql/data && chown 27:27 /opt/var/lib/mysql/data
 ```
 
 - Run the container
 
 ```
-podman run -d --name mariadb-service2 -p 3306:3306 \
+podman run -d --name mariadb-service -p 3306:3306 \
 -v /opt/var/lib/mysql/data:/var/lib/mysql/data:Z \
 -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=secret \
 -e MYSQL_DATABASE=wordpress --net host registry.fedoraproject.org/f31/mariadb
