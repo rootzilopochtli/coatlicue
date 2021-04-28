@@ -17,7 +17,7 @@ This architecture is based on an idea originally presented in this [gist](https:
 - [Cockpit](https://github.com/rootzilopochtli/coatlicue/blob/master/cockpit.md)
 - [MariaDB](https://github.com/rootzilopochtli/coatlicue/blob/master/mariadb.md)
 - [Nginx](https://github.com/rootzilopochtli/coatlicue/blob/master/nginx.md)
-- Polr
+- [Polr](https://github.com/rootzilopochtli/coatlicue/blob/master/polr.md)
 - [Wordpress](https://github.com/rootzilopochtli/coatlicue/blob/master/wordpress.md)
 
 ## References
