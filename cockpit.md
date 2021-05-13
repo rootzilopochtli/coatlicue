@@ -7,7 +7,7 @@ Using [cockpit](https://cockpit-project.org/) for monitoring performance and man
 - Install cockpit and the modules for the registration of the sessions through [tlog](https://github.com/Scribery/tlog) and [sssd](https://sssd.io/), dashboard and container management:
 
 ```
-dnf -y install cockpit sssd tlog cockpit-session-recording cockpit-dashboard cockpit-podman
+dnf -y install cockpit sssd tlog cockpit-session-recording cockpit-dashboard cockpit-podman cockpit-storaged
 ```
 
 - Enable and start cockpit
